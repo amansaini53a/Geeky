@@ -1,0 +1,4 @@
+
+
+   Requirments.txt
+pip3 install –r path/requirements.txt

@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.2 (Python 3.6.3 on darwin)" generated="20171008 22:54:08.402">
+<suite id="s1" name="DemoTestCases" source="/Users/akinfu/Google Drive/PROJECTS/UDEMY/RobotFrameworkQuickStart/RobotCourseFiles/DemoTestCases">
+<suite id="s1-s1" name="My Account" source="/Users/akinfu/Google Drive/PROJECTS/UDEMY/RobotFrameworkQuickStart/RobotCourseFiles/DemoTestCases/my_account.robot">
+<test id="s1-s1-t1" name="Login attempt with invalid user should show error">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>http://demostore.supersqa.com/</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20171008 22:54:08.661" level="INFO">Opening browser 'Chrome' to base url 'http://demostore.supersqa.com/'</msg>
+<status status="PASS" starttime="20171008 22:54:08.661" endtime="20171008 22:54:13.061"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=menu-item-157</arg>
+</arguments>
+<msg timestamp="20171008 22:54:13.063" level="INFO">Clicking element 'id=menu-item-157'.</msg>
+<status status="PASS" starttime="20171008 22:54:13.062" endtime="20171008 22:54:14.112"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>id=username</arg>
+<arg>fakeuser</arg>
+</arguments>
+<msg timestamp="20171008 22:54:14.113" level="INFO">Typing text 'fakeuser' into text field 'id=username'</msg>
+<status status="PASS" starttime="20171008 22:54:14.113" endtime="20171008 22:54:14.621"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>id=password</arg>
+<arg>fakepassword</arg>
+</arguments>
+<msg timestamp="20171008 22:54:14.623" level="INFO">Typing text 'fakepassword' into text field 'id=password'</msg>
+<status status="PASS" starttime="20171008 22:54:14.622" endtime="20171008 22:54:14.862"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>css=#post-73 &gt; div &gt; div &gt; form &gt; p:nth-child(3) &gt; input.woocommerce-Button.button</arg>
+</arguments>
+<msg timestamp="20171008 22:54:14.863" level="INFO">Clicking element 'css=#post-73 &gt; div &gt; div &gt; form &gt; p:nth-child(3) &gt; input.woocommerce-Button.button'.</msg>
+<status status="PASS" starttime="20171008 22:54:14.862" endtime="20171008 22:54:15.643"></status>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<doc>Verifies that the element identified by `locator` is visible.</doc>
+<arguments>
+<arg>css=#content &gt; div &gt; div.woocommerce &gt; ul</arg>
+</arguments>
+<msg timestamp="20171008 22:54:15.644" level="INFO">Verifying element 'css=#content &gt; div &gt; div.woocommerce &gt; ul' is visible.</msg>
+<status status="PASS" starttime="20171008 22:54:15.643" endtime="20171008 22:54:15.901"></status>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<doc>Verifies element identified by `locator` exactly contains text `expected`.</doc>
+<arguments>
+<arg>css=#content &gt; div &gt; div.woocommerce &gt; ul</arg>
+<arg>ERROR: Invalid username. Lost your password?</arg>
+</arguments>
+<msg timestamp="20171008 22:54:15.902" level="INFO">Verifying element 'css=#content &gt; div &gt; div.woocommerce &gt; ul' contains exactly text 'ERROR: Invalid username. Lost your password?'.</msg>
+<status status="PASS" starttime="20171008 22:54:15.901" endtime="20171008 22:54:15.949"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20171008 22:54:15.950" endtime="20171008 22:54:16.083"></status>
+</kw>
+<status status="PASS" starttime="20171008 22:54:08.659" endtime="20171008 22:54:16.083" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20171008 22:54:08.463" endtime="20171008 22:54:16.086"></status>
+</suite>
+<suite id="s1-s2" name="My Account 2" source="/Users/akinfu/Google Drive/PROJECTS/UDEMY/RobotFrameworkQuickStart/RobotCourseFiles/DemoTestCases/my_account_2.robot">
+<test id="s1-s2-t1" name="Login attempt with invalid user should show error">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>http://demostore.supersqa.com/</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20171008 22:54:16.100" level="INFO">Opening browser 'Chrome' to base url 'http://demostore.supersqa.com/'</msg>
+<status status="PASS" starttime="20171008 22:54:16.099" endtime="20171008 22:54:20.129"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=menu-item-157</arg>
+</arguments>
+<msg timestamp="20171008 22:54:20.131" level="INFO">Clicking element 'id=menu-item-157'.</msg>
+<status status="PASS" starttime="20171008 22:54:20.130" endtime="20171008 22:54:20.979"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>id=username</arg>
+<arg>fakeuser</arg>
+</arguments>
+<msg timestamp="20171008 22:54:20.980" level="INFO">Typing text 'fakeuser' into text field 'id=username'</msg>
+<status status="PASS" starttime="20171008 22:54:20.980" endtime="20171008 22:54:21.511"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>id=password</arg>
+<arg>fakepassword</arg>
+</arguments>
+<msg timestamp="20171008 22:54:21.512" level="INFO">Typing text 'fakepassword' into text field 'id=password'</msg>
+<status status="PASS" starttime="20171008 22:54:21.512" endtime="20171008 22:54:21.719"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>css=#post-73 &gt; div &gt; div &gt; form &gt; p:nth-child(3) &gt; input.woocommerce-Button.button</arg>
+</arguments>
+<msg timestamp="20171008 22:54:21.720" level="INFO">Clicking element 'css=#post-73 &gt; div &gt; div &gt; form &gt; p:nth-child(3) &gt; input.woocommerce-Button.button'.</msg>
+<status status="PASS" starttime="20171008 22:54:21.720" endtime="20171008 22:54:22.512"></status>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<doc>Verifies that the element identified by `locator` is visible.</doc>
+<arguments>
+<arg>css=#content &gt; div &gt; div.woocommerce &gt; ul</arg>
+</arguments>
+<msg timestamp="20171008 22:54:22.515" level="INFO">Verifying element 'css=#content &gt; div &gt; div.woocommerce &gt; ul' is visible.</msg>
+<status status="PASS" starttime="20171008 22:54:22.513" endtime="20171008 22:54:22.735"></status>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<doc>Verifies element identified by `locator` exactly contains text `expected`.</doc>
+<arguments>
+<arg>css=#content &gt; div &gt; div.woocommerce &gt; ul</arg>
+<arg>ERROR: Invalid username. Lost your password?</arg>
+</arguments>
+<msg timestamp="20171008 22:54:22.736" level="INFO">Verifying element 'css=#content &gt; div &gt; div.woocommerce &gt; ul' contains exactly text 'ERROR: Invalid username. Lost your password?'.</msg>
+<status status="PASS" starttime="20171008 22:54:22.735" endtime="20171008 22:54:22.776"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20171008 22:54:22.776" endtime="20171008 22:54:22.859"></status>
+</kw>
+<doc>Just a demo test 2.</doc>
+<status status="PASS" starttime="20171008 22:54:16.097" endtime="20171008 22:54:22.859" critical="yes"></status>
+</test>
+<test id="s1-s2-t2" name="Login attempt with empty password should show &quot;Empty Password&quot; error message">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>http://demostore.supersqa.com/</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20171008 22:54:22.862" level="INFO">Opening browser 'Chrome' to base url 'http://demostore.supersqa.com/'</msg>
+<status status="PASS" starttime="20171008 22:54:22.861" endtime="20171008 22:54:26.978"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=menu-item-157</arg>
+</arguments>
+<msg timestamp="20171008 22:54:26.980" level="INFO">Clicking element 'id=menu-item-157'.</msg>
+<status status="PASS" starttime="20171008 22:54:26.979" endtime="20171008 22:54:27.709"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>id=username</arg>
+<arg>fakeuser</arg>
+</arguments>
+<msg timestamp="20171008 22:54:27.710" level="INFO">Typing text 'fakeuser' into text field 'id=username'</msg>
+<status status="PASS" starttime="20171008 22:54:27.710" endtime="20171008 22:54:28.153"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>css=#post-73 &gt; div &gt; div &gt; form &gt; p:nth-child(3) &gt; input.woocommerce-Button.button</arg>
+</arguments>
+<status status="PASS" starttime="20171008 22:54:28.154" endtime="20171008 22:54:28.218"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>css=#post-73 &gt; div &gt; div &gt; form &gt; p:nth-child(3) &gt; input.woocommerce-Button.button</arg>
+</arguments>
+<msg timestamp="20171008 22:54:28.219" level="INFO">Clicking element 'css=#post-73 &gt; div &gt; div &gt; form &gt; p:nth-child(3) &gt; input.woocommerce-Button.button'.</msg>
+<status status="PASS" starttime="20171008 22:54:28.219" endtime="20171008 22:54:29.234"></status>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<doc>Verifies that the element identified by `locator` is visible.</doc>
+<arguments>
+<arg>css=#content &gt; div &gt; div.woocommerce &gt; ul</arg>
+</arguments>
+<msg timestamp="20171008 22:54:29.236" level="INFO">Verifying element 'css=#content &gt; div &gt; div.woocommerce &gt; ul' is visible.</msg>
+<status status="PASS" starttime="20171008 22:54:29.235" endtime="20171008 22:54:29.448"></status>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<doc>Verifies element identified by `locator` exactly contains text `expected`.</doc>
+<arguments>
+<arg>css=#content &gt; div &gt; div.woocommerce &gt; ul</arg>
+<arg>ERROR: The password field is empty.</arg>
+</arguments>
+<msg timestamp="20171008 22:54:29.449" level="INFO">Verifying element 'css=#content &gt; div &gt; div.woocommerce &gt; ul' contains exactly text 'ERROR: The password field is empty.'.</msg>
+<status status="PASS" starttime="20171008 22:54:29.449" endtime="20171008 22:54:29.492"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20171008 22:54:29.492" endtime="20171008 22:54:29.575"></status>
+</kw>
+<doc>Just a demo test 2. Checking error message matches expected exact text.</doc>
+<status status="PASS" starttime="20171008 22:54:22.860" endtime="20171008 22:54:29.577" critical="yes"></status>
+</test>
+<test id="s1-s2-t3" name="Login attempt with empty username should show &quot;Empty Password&quot; error message">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>http://demostore.supersqa.com/</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20171008 22:54:29.581" level="INFO">Opening browser 'Chrome' to base url 'http://demostore.supersqa.com/'</msg>
+<status status="PASS" starttime="20171008 22:54:29.581" endtime="20171008 22:54:33.751"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=menu-item-157</arg>
+</arguments>
+<msg timestamp="20171008 22:54:33.753" level="INFO">Clicking element 'id=menu-item-157'.</msg>
+<status status="PASS" starttime="20171008 22:54:33.752" endtime="20171008 22:54:34.646"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>id=password</arg>
+<arg>fakepassword</arg>
+</arguments>
+<msg timestamp="20171008 22:54:34.647" level="INFO">Typing text 'fakepassword' into text field 'id=password'</msg>
+<status status="PASS" starttime="20171008 22:54:34.646" endtime="20171008 22:54:35.157"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>css=#post-73 &gt; div &gt; div &gt; form &gt; p:nth-child(3) &gt; input.woocommerce-Button.button</arg>
+</arguments>
+<status status="PASS" starttime="20171008 22:54:35.158" endtime="20171008 22:54:35.222"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>css=#post-73 &gt; div &gt; div &gt; form &gt; p:nth-child(3) &gt; input.woocommerce-Button.button</arg>
+</arguments>
+<msg timestamp="20171008 22:54:35.223" level="INFO">Clicking element 'css=#post-73 &gt; div &gt; div &gt; form &gt; p:nth-child(3) &gt; input.woocommerce-Button.button'.</msg>
+<status status="PASS" starttime="20171008 22:54:35.223" endtime="20171008 22:54:36.018"></status>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<doc>Verifies that the element identified by `locator` is visible.</doc>
+<arguments>
+<arg>css=#content &gt; div &gt; div.woocommerce &gt; ul</arg>
+</arguments>
+<msg timestamp="20171008 22:54:36.019" level="INFO">Verifying element 'css=#content &gt; div &gt; div.woocommerce &gt; ul' is visible.</msg>
+<status status="PASS" starttime="20171008 22:54:36.018" endtime="20171008 22:54:36.252"></status>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<doc>Verifies element identified by `locator` exactly contains text `expected`.</doc>
+<arguments>
+<arg>css=#content &gt; div &gt; div.woocommerce &gt; ul</arg>
+<arg>Error: Username is required.</arg>
+</arguments>
+<msg timestamp="20171008 22:54:36.253" level="INFO">Verifying element 'css=#content &gt; div &gt; div.woocommerce &gt; ul' contains exactly text 'Error: Username is required.'.</msg>
+<status status="PASS" starttime="20171008 22:54:36.252" endtime="20171008 22:54:36.299"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20171008 22:54:36.299" endtime="20171008 22:54:36.384"></status>
+</kw>
+<doc>Just a demo test 3. Checking error message matches expected exact text.</doc>
+<status status="PASS" starttime="20171008 22:54:29.579" endtime="20171008 22:54:36.384" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20171008 22:54:16.090" endtime="20171008 22:54:36.386"></status>
+</suite>
+<suite id="s1-s3" name="My Account 3" source="/Users/akinfu/Google Drive/PROJECTS/UDEMY/RobotFrameworkQuickStart/RobotCourseFiles/DemoTestCases/my_account_3.robot">
+<test id="s1-s3-t1" name="Login attempt with invalid user should show error">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${homepage_url}</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20171008 22:54:36.403" level="INFO">Opening browser 'Chrome' to base url 'http://demostore.supersqa.com/'</msg>
+<status status="PASS" starttime="20171008 22:54:36.402" endtime="20171008 22:54:40.604"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=menu-item-157</arg>
+</arguments>
+<msg timestamp="20171008 22:54:40.605" level="INFO">Clicking element 'id=menu-item-157'.</msg>
+<status status="PASS" starttime="20171008 22:54:40.605" endtime="20171008 22:54:41.294"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>id=username</arg>
+<arg>fakeuser</arg>
+</arguments>
+<msg timestamp="20171008 22:54:41.297" level="INFO">Typing text 'fakeuser' into text field 'id=username'</msg>
+<status status="PASS" starttime="20171008 22:54:41.295" endtime="20171008 22:54:41.749"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>id=password</arg>
+<arg>fakepassword</arg>
+</arguments>
+<msg timestamp="20171008 22:54:41.750" level="INFO">Typing text 'fakepassword' into text field 'id=password'</msg>
+<status status="PASS" starttime="20171008 22:54:41.749" endtime="20171008 22:54:41.956"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>css=#post-73 &gt; div &gt; div &gt; form &gt; p:nth-child(3) &gt; input.woocommerce-Button.button</arg>
+</arguments>
+<msg timestamp="20171008 22:54:41.957" level="INFO">Clicking element 'css=#post-73 &gt; div &gt; div &gt; form &gt; p:nth-child(3) &gt; input.woocommerce-Button.button'.</msg>
+<status status="PASS" starttime="20171008 22:54:41.956" endtime="20171008 22:54:42.806"></status>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<doc>Verifies that the element identified by `locator` is visible.</doc>
+<arguments>
+<arg>css=#content &gt; div &gt; div.woocommerce &gt; ul</arg>
+</arguments>
+<msg timestamp="20171008 22:54:42.808" level="INFO">Verifying element 'css=#content &gt; div &gt; div.woocommerce &gt; ul' is visible.</msg>
+<status status="PASS" starttime="20171008 22:54:42.807" endtime="20171008 22:54:43.042"></status>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<doc>Verifies element identified by `locator` exactly contains text `expected`.</doc>
+<arguments>
+<arg>css=#content &gt; div &gt; div.woocommerce &gt; ul</arg>
+<arg>ERROR: Invalid username. Lost your password?</arg>
+</arguments>
+<msg timestamp="20171008 22:54:43.043" level="INFO">Verifying element 'css=#content &gt; div &gt; div.woocommerce &gt; ul' contains exactly text 'ERROR: Invalid username. Lost your password?'.</msg>
+<status status="PASS" starttime="20171008 22:54:43.042" endtime="20171008 22:54:43.085"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20171008 22:54:43.085" endtime="20171008 22:54:43.168"></status>
+</kw>
+<status status="PASS" starttime="20171008 22:54:36.399" endtime="20171008 22:54:43.168" critical="yes"></status>
+</test>
+<test id="s1-s3-t2" name="Login attempt with empty password should show &quot;Empty Password&quot; error message">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${homepage_url}</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20171008 22:54:43.171" level="INFO">Opening browser 'Chrome' to base url 'http://demostore.supersqa.com/'</msg>
+<status status="PASS" starttime="20171008 22:54:43.171" endtime="20171008 22:54:47.172"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=menu-item-157</arg>
+</arguments>
+<msg timestamp="20171008 22:54:47.173" level="INFO">Clicking element 'id=menu-item-157'.</msg>
+<status status="PASS" starttime="20171008 22:54:47.172" endtime="20171008 22:54:48.375"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>id=username</arg>
+<arg>fakeuser</arg>
+</arguments>
+<msg timestamp="20171008 22:54:48.377" level="INFO">Typing text 'fakeuser' into text field 'id=username'</msg>
+<status status="PASS" starttime="20171008 22:54:48.377" endtime="20171008 22:54:49.021"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>css=#post-73 &gt; div &gt; div &gt; form &gt; p:nth-child(3) &gt; input.woocommerce-Button.button</arg>
+</arguments>
+<status status="PASS" starttime="20171008 22:54:49.022" endtime="20171008 22:54:49.100"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>css=#post-73 &gt; div &gt; div &gt; form &gt; p:nth-child(3) &gt; input.woocommerce-Button.button</arg>
+</arguments>
+<msg timestamp="20171008 22:54:49.102" level="INFO">Clicking element 'css=#post-73 &gt; div &gt; div &gt; form &gt; p:nth-child(3) &gt; input.woocommerce-Button.button'.</msg>
+<status status="PASS" starttime="20171008 22:54:49.101" endtime="20171008 22:54:49.897"></status>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<doc>Verifies that the element identified by `locator` is visible.</doc>
+<arguments>
+<arg>css=#content &gt; div &gt; div.woocommerce &gt; ul</arg>
+</arguments>
+<msg timestamp="20171008 22:54:49.898" level="INFO">Verifying element 'css=#content &gt; div &gt; div.woocommerce &gt; ul' is visible.</msg>
+<status status="PASS" starttime="20171008 22:54:49.897" endtime="20171008 22:54:50.140"></status>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<doc>Verifies element identified by `locator` exactly contains text `expected`.</doc>
+<arguments>
+<arg>css=#content &gt; div &gt; div.woocommerce &gt; ul</arg>
+<arg>${missing_password_error}</arg>
+</arguments>
+<msg timestamp="20171008 22:54:50.141" level="INFO">Verifying element 'css=#content &gt; div &gt; div.woocommerce &gt; ul' contains exactly text 'ERROR: The password field is empty.'.</msg>
+<status status="PASS" starttime="20171008 22:54:50.140" endtime="20171008 22:54:50.199"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20171008 22:54:50.199" endtime="20171008 22:54:50.323"></status>
+</kw>
+<status status="PASS" starttime="20171008 22:54:43.170" endtime="20171008 22:54:50.324" critical="yes"></status>
+</test>
+<test id="s1-s3-t3" name="Login attempt with empty username should show &quot;Empty Password&quot; error message">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${homepage_url}</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20171008 22:54:50.327" level="INFO">Opening browser 'Chrome' to base url 'http://demostore.supersqa.com/'</msg>
+<status status="PASS" starttime="20171008 22:54:50.326" endtime="20171008 22:54:54.751"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=menu-item-157</arg>
+</arguments>
+<msg timestamp="20171008 22:54:54.753" level="INFO">Clicking element 'id=menu-item-157'.</msg>
+<status status="PASS" starttime="20171008 22:54:54.752" endtime="20171008 22:54:55.697"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>id=password</arg>
+<arg>fakepassword</arg>
+</arguments>
+<msg timestamp="20171008 22:54:55.699" level="INFO">Typing text 'fakepassword' into text field 'id=password'</msg>
+<status status="PASS" starttime="20171008 22:54:55.698" endtime="20171008 22:54:56.234"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>css=#post-73 &gt; div &gt; div &gt; form &gt; p:nth-child(3) &gt; input.woocommerce-Button.button</arg>
+</arguments>
+<status status="PASS" starttime="20171008 22:54:56.235" endtime="20171008 22:54:56.303"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>css=#post-73 &gt; div &gt; div &gt; form &gt; p:nth-child(3) &gt; input.woocommerce-Button.button</arg>
+</arguments>
+<msg timestamp="20171008 22:54:56.304" level="INFO">Clicking element 'css=#post-73 &gt; div &gt; div &gt; form &gt; p:nth-child(3) &gt; input.woocommerce-Button.button'.</msg>
+<status status="PASS" starttime="20171008 22:54:56.303" endtime="20171008 22:54:57.232"></status>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<doc>Verifies that the element identified by `locator` is visible.</doc>
+<arguments>
+<arg>css=#content &gt; div &gt; div.woocommerce &gt; ul</arg>
+</arguments>
+<msg timestamp="20171008 22:54:57.235" level="INFO">Verifying element 'css=#content &gt; div &gt; div.woocommerce &gt; ul' is visible.</msg>
+<status status="PASS" starttime="20171008 22:54:57.234" endtime="20171008 22:54:57.530"></status>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<doc>Verifies element identified by `locator` exactly contains text `expected`.</doc>
+<arguments>
+<arg>css=#content &gt; div &gt; div.woocommerce &gt; ul</arg>
+<arg>${missing_username_error}</arg>
+</arguments>
+<msg timestamp="20171008 22:54:57.531" level="INFO">Verifying element 'css=#content &gt; div &gt; div.woocommerce &gt; ul' contains exactly text 'Error: Username is required.'.</msg>
+<status status="PASS" starttime="20171008 22:54:57.530" endtime="20171008 22:54:57.575"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20171008 22:54:57.575" endtime="20171008 22:54:57.655"></status>
+</kw>
+<status status="PASS" starttime="20171008 22:54:50.325" endtime="20171008 22:54:57.655" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20171008 22:54:36.391" endtime="20171008 22:54:57.657"></status>
+</suite>
+<status status="PASS" starttime="20171008 22:54:08.404" endtime="20171008 22:54:57.663"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="7" fail="0">Critical Tests</stat>
+<stat pass="7" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="7" fail="0" id="s1" name="DemoTestCases">DemoTestCases</stat>
+<stat pass="1" fail="0" id="s1-s1" name="My Account">DemoTestCases.My Account</stat>
+<stat pass="3" fail="0" id="s1-s2" name="My Account 2">DemoTestCases.My Account 2</stat>
+<stat pass="3" fail="0" id="s1-s3" name="My Account 3">DemoTestCases.My Account 3</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

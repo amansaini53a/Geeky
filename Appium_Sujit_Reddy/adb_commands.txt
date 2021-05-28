@@ -1,0 +1,17 @@
+ 
+ 
+ adb -s SCEYYLQWQ8S8ZSKB shell getprop ro.product.model
+ 
+ CPH1823
+ adb devices -l | findstr SCEYYLQWQ8S8ZSKB
+ 
+adb shell 
+getprop | grep -e 'model' -e 'version.sdk' -e 'manufacturer' -e 'hardware' -e 'platform' -e 'revision' -e 'serialno' -e 'product.name' -e 'brand'
+
+adb shell getprop | findstr model
+adb shell getprop | findstr sdk
+  
+com.code2lead.kwad/com.code2lead.kwad.MainActivity
+  
+
+

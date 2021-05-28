@@ -1,0 +1,20 @@
+FileName and testName must start with test_
+
+====================================================================
+3 ways to execute the code in pytest:
+-------------------------------------
+	1. py.test -v -s files_path			# Runs all test in the specified files_path
+	2. py.test -v -s flile.py 			#Runs the test in module or in the test file
+	3. py.test -v -s test_module.py::test_method 	#Only runs the test_method in test_module.py
+
+-v : verbose. 
+-s : To print the statements.
+
+====================================================================
+Allure py.test commands
+------------------------
+Run the allure command::
+	py.test --alluredir= '/path_of_logs_directory' test_file.py
+
+To create the report
+	allure /serve path_of_logs_directory
